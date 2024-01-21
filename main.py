@@ -16,7 +16,6 @@ board = [' 0 ', ' 1 ', ' 2 ', ' 3 ', ' 4 ', ' 5 ', ' 6 ', ' 7 ', ' 8 ']
 
 
 def player_x():
-
     player_x = int(input("Which field? (X) "))
     if board[player_x] != " O ":
         board[player_x] = " X "
@@ -27,7 +26,6 @@ def player_x():
 
 
 def player_o():
-
     player_o = int(input("Which field? (O) "))
     if board[player_o] != " X ":
         board[player_o] = " O "
